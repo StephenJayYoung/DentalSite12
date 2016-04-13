@@ -364,7 +364,8 @@ section#specials {
 }
 
 /** REVIEWS OVERRIDES */
-#reviews{background-color:#fff8eb; padding-top: 60px;}
+#reviews{background: url('../images/reviews-background.jpg') 50% 0% no-repeat;
+    background-size: cover; padding-top: 60px;}
 #reviews table.rad{box-sizing:border-box;display:block;max-height:640px;overflow-y:scroll;border:2px solid rgba(0, 0, 0, .05);border-bottom:none;}
 #reviews td.rad{padding:3em 10px 20px 10px;position:relative;background-color:rgba(255, 255, 255, .8);border-bottom:2px solid rgba(0, 0, 0, .05);}
 #reviews .starline{display:block;position:absolute;top:1em;}
