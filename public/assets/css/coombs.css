@@ -644,6 +644,10 @@ section#tour {
 	background-color: #fff !important;
 }
 
+.entry {
+     border-bottom: none; 
+}
+
 .portfolio-item {
 box-sizing: border-box;
 	padding: .6em;
