@@ -678,8 +678,15 @@ section#location {
 	border-top: .5px solid #1f1b18;
 }
 
-#contact-form-overlay, #contact-form-overlay-mini {
-    border-radius: 8px;
+#contact-form {
+    position: relative;
+    max-width: 500px;
+    background-color: #FFF;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    z-index: 10;
+    border-radius: 4px;
 }
 
 .directions{

@@ -115,12 +115,12 @@ jQuery(document).ready(function($){
     // google maps script
     $('#google-map').gMap({
 
-        address: '1144-C India Hook Rd, Rock Hill, SC',
+        address: '23501 Cinco Ranch Blvd. Suite B228 Katy, TX 77494',
         maptype: 'ROADMAP',
         zoom: 16,
         markers: [
             {
-                address: "1144-C India Hook Rd, Rock Hill, SC 29732",
+                address: "23501 Cinco Ranch Blvd. Suite B228 Katy, TX 77494",
                 icon: {
                     image: "assets/images/icons/map-icon-red.png",
                     iconsize: [32, 39],
