@@ -212,13 +212,24 @@ background-color: #e38d77 !important;
 
 /** TEAM OVERRIDES */
 
-.bio-image{width: 65%; max-width: 103%;}
+.bio-image{width: 90%; max-width: 103%;}
 
 @media (min-width: 991px) and (max-width: 1199px){
 .bio-image{width: 145%; max-width: 145%;}
 .col-sm-push-3 {left: 30%;}
 }
 
+.portfolio-item-team{
+	position: relative;
+	float: left;
+	width: 276px;
+	margin: 0 12px 12px 0;
+	box-sizing: border-box;
+	padding: .6em;
+/*	border: 1px solid #ddd;
+	border-radius: 10px;*/
+/*	background-color: #ffffff;*/
+}
 /*@media (min-width: 768px) and (max-width: 990px){
 .bio-image{width: 170%; max-width: 170%;}
 .col-sm-push-3 {left: 35%;}
