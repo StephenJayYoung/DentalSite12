@@ -917,6 +917,13 @@ address {
 	text-rendering: optimizeLegibility;
 }
 
+.img-responsive-icons {
+    width: 72%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .social-media-icons{
 	padding-top: 15px;
 }
