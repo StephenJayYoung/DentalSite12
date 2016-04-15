@@ -837,8 +837,36 @@ hoursText{
 }
 
 address {
-	font-size: 1.25em;
+	font-size: 2.25em;
 	margin: .5em 0;
+}
+
+.click-for-address{
+	color: #000 !important;
+	font-size: 23px !important;
+}
+
+.new-patients{
+	font-size: 31px;
+}
+
+.new-patients a{
+	font-size: 45px;
+	color: #000;
+}
+
+.existing-patients{
+	font-size: 25px;
+}
+
+.existing-patients a{
+	font-size: 25px;
+	color: #000;
+}
+
+.hours{
+	font-size: 25px;
+	margin-top: 10px;
 }
 
 #location p.new-patient-hotline, #location p.existing-patients {
@@ -849,6 +877,8 @@ address {
 #location p.new-patient-hotline small, #location p.existing-patients small {
 	margin-bottom: -5px;
 }
+
+
 
 /*MODAL OVERRIDES*/
 .modal-body{
