@@ -251,9 +251,16 @@ section#specials {
 	border-top: 1px solid rgba(0, 0, 0, .15);
 	margin-top: 0;
 	padding-top: 60px;
-	background-color: #ede6d9;
+	background-color: #fff;
 	color:;
 }
+
+.pricing-background{
+	background-color: #e7e6e1 !important;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius:10px;
+}
+
 
 .pricing-title {
     border-radius: 10px 10px 0 0;
@@ -264,7 +271,7 @@ section#specials {
 }
 
 .pricing-title {
-    background-color: #e36314;
+    background-color: #05b0c2;
 }
 
 .pricing-title h3 {
@@ -280,7 +287,7 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #e36314 !important;
+	background-color: #05b0c2 !important;
 }
 
 .dark .pricing-box, .dark .pricing-box.best-price {
@@ -388,7 +395,7 @@ section#services {
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #ede6d9 !important;
+	background-color: #fff !important;
 }
 
 .subtitle-two {
@@ -523,7 +530,7 @@ section#members {
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #e8e8e8;
-	background-color: #50848f !important; 
+	background-color: #abdce1 !important; 
 }
 
 .pricing-box.pricing-extended .pricing-action-area {
@@ -539,7 +546,7 @@ section#members .heading-block span{
 }
 
 .dark .pricing-box.pricing-extended .pricing-action-area {
-    background-color: #ede6d9;
+    background-color: #fff;
 }
 
 .pricing-box.pricing-extended {
@@ -547,7 +554,7 @@ section#members .heading-block span{
 }
 
 .icon-ok:before {
-    color: #e36314;
+    color: #05b0c2;
 }
 
 .pricing-box {
@@ -630,20 +637,30 @@ section#members .heading-block span{
 
 #members a.button {
 /*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
-	background-color: #e36314 !important;
-	color: #ffffff;
+	background-color: #095f68 !important;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+#members a.button:hover{
+/*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
+	background-color: #095f68 !important;
+	color: #fff;
+	border: 1px solid #fff;
 }
 
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
-	background-color: #e38d77 !important;;
+	background-color: #fff !important;
+	color: #095f68;
+	border: 1px solid #095f68;
 }
 
 /** TOUR OVERRIDES */
 section#tour {
 	margin-top: 0;
 	padding-top: 60px;
-	padding-bottom: 75px !important;
-	background-color: #fff !important;
+	padding-bottom: 40px !important;
+	background-color: #a9a09b !important;
 }
 
 .entry {
@@ -670,8 +687,15 @@ box-sizing: border-box;
     border-radius: 10px;
 }
 
+#gallery{
+	background-color: #e7e6e1;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
 /** CONTACT OVERRIDES */
 section#location {
+	padding-top: 40px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	background-color: #fff;
