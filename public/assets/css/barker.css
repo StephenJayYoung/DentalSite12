@@ -870,8 +870,8 @@ address {
 }
 
 #location p.new-patient-hotline, #location p.existing-patients {
-	font-size: 2.5em;
-	margin: .65em 0;
+	font-size: 25px;
+/*	margin: .65em 0;*/
 }
 
 #location p.new-patient-hotline small, #location p.existing-patients small {
