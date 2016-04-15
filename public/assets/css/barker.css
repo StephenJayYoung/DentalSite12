@@ -108,7 +108,7 @@ nav#primary-menu.statick-sticky > ul{
 
 .button:hover {
     background-color: #fff !important;
-    border: 1px solid #095f68 !important;
+    border: 2px solid #095f68 !important;
     color: #095f68 !important;
 }
 
@@ -639,14 +639,14 @@ section#members .heading-block span{
 /*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
 	background-color: #095f68 !important;
 	color: #fff;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 }
 
 #members a.button:hover{
 /*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
 	background-color: #095f68 !important;
 	color: #fff;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 }
 
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
@@ -874,9 +874,14 @@ address {
 }
 
 .click-for-address{
-	color: #000 !important;
+	color: #095f68 !important;
 	font-size: 23px !important;
 }
+
+.address-text {
+	color: #000;
+}
+
 
 .new-patients{
 	font-size: 31px;
@@ -884,7 +889,7 @@ address {
 
 .new-patients a{
 	font-size: 45px;
-	color: #000;
+	color: #095f68;
 }
 
 .existing-patients{
@@ -893,16 +898,18 @@ address {
 
 .existing-patients a{
 	font-size: 25px;
-	color: #000;
+	color: #095f68;
 }
 
 .hours{
 	font-size: 25px;
 	margin-top: 20px;
+	color: #000;
 }
 
 #location p.new-patient-hotline, #location p.existing-patients {
 	font-size: 25px;
+	color: #000;
 /*	margin: .65em 0;*/
 }
 
@@ -1053,7 +1060,7 @@ input, select, textarea {
 
 .button{
 	background-color: #095f68 !important;
-	border: 1px solid #fff;
+	border: 2px solid #fff !important;
 }
 
 .portfolio-overlay a.center-icon {
