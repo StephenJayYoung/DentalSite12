@@ -212,7 +212,7 @@ background-color: #e38d77 !important;
 
 /** TEAM OVERRIDES */
 
-.bio-image{width: 90%; max-width: 103%;}
+.bio-image{width: 81%; max-width: 103%;}
 
 @media (min-width: 991px) and (max-width: 1199px){
 .bio-image{width: 145%; max-width: 145%;}
