@@ -12,22 +12,22 @@
 body{
 	color: #777777 !important;
 	background-color: #fff !important;
-	font-family: 'Gentium Book Basic', serif !important;
+	font-family: 'Sintony', sans-serif !important;
 }
 
 a {
-    font-family: 'Gentium Book Basic', sans-serif !important;
+    font-family: 'Sintony', sans-serif !important;
 }
 
 h2 {
     color: #222222;
-    font-family: "Open Sans";
+    font-family: "Rufina", serif;
     font-weight: 900 !important;
 }
 
 h3, h4, h5, h6 {
     color: #1f1b18;
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Rufina', serif;
 }
 
 #logo {
@@ -658,8 +658,8 @@ section#members .heading-block span{
 /** TOUR OVERRIDES */
 section#tour {
 	margin-top: 0;
-	padding-top: 60px;
-	padding-bottom: 40px !important;
+	padding-top: 40px;
+/*	padding-bottom: 30px !important;*/
 	background-color: #a9a09b !important;
 }
 
@@ -691,6 +691,12 @@ box-sizing: border-box;
 	background-color: #e7e6e1;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+    background-color: #095f68 !important;
+    color: #FFF !important;
+    text-decoration: none;
 }
 
 /** CONTACT OVERRIDES */
@@ -966,6 +972,11 @@ address {
 
 /*FOOTER OVERRIDES*/
 
+#footer {
+    position: relative;
+    background-color: #f5f5f5 !important;
+}
+
 .footer-icons{
 	height: 50px;
 	width: 50px;
@@ -999,8 +1010,8 @@ address {
 }
 
 #copyrights {
-  background-color: #4f4a41 !important;
-  color: #a09b92 !important;
+  background-color: #095f68 !important;
+  color: #8dc5cb !important;
 }
 
 .social-icon i {
@@ -1050,9 +1061,9 @@ input, select, textarea {
 }
 
 .portfolio-overlay a.center-icon:hover{
-    color: #e38d77;
+    color: #095f68;
 }
 
 #gotoTop:hover {
-    background-color: #e36314 !important;
+    background-color: #095f68 !important;
 }
