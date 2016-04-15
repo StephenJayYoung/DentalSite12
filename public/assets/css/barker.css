@@ -917,6 +917,15 @@ address {
 	text-rendering: optimizeLegibility;
 }
 
+#footer-links {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.financing-border{
+	border-right: 1px solid #000;
+	padding-bottom: 60px;
+	}
 .img-responsive-icons {
     width: 72%;
     max-width: 100%;
