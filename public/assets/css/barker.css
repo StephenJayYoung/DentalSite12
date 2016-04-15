@@ -644,8 +644,8 @@ section#members .heading-block span{
 
 #members a.button:hover{
 /*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
-	background-color: #095f68 !important;
-	color: #fff;
+	background-color: #fff !important;
+	color: #095f68;
 	border: 2px solid #fff;
 }
 
@@ -1072,5 +1072,5 @@ input, select, textarea {
 }
 
 #gotoTop:hover {
-    background-color: #095f68 !important;
+    background-color: #abdce1 !important;
 }
