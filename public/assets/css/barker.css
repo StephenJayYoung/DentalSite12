@@ -214,13 +214,30 @@ nav#primary-menu.statick-sticky > ul{
 	padding-top: 40px;
 }
 
-.bio-image{width: 81%; max-width: 103%;}
+.bio-image{width: 100%; max-width: 100%;}
 
 @media (min-width: 991px) and (max-width: 1199px){
-.bio-image{width: 145%; max-width: 145%;}
-.col-sm-push-3 {left: 30%;}
+.bio-image{width: 100%; max-width: 100%;}
+/*.col-sm-push-3 {left: 30%;}*/
 }
 
+@media (min-width: 768px) and (max-width: 990px){
+.bio-image{width: 68%; max-width: 68%;}
+/*.col-sm-push-3 {left: 30%;}*/
+}
+
+@media (min-width: 1200px){
+	.team-member-margin{
+		margin-left: 30px;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1200px){
+	.team-member-margin{
+		margin-left: 0px;
+	}
+
+}
 .portfolio-item-team{
 	position: relative;
 	float: left;
