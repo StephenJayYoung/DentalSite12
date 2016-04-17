@@ -1031,6 +1031,11 @@ address {
     display: block;
 }
 
+.superdocs{
+	width: 30%;
+	max-width: 30%;
+}
+
 .social-media-icons{
 	padding-top: 15px;
 }
