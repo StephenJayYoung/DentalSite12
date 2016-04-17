@@ -214,6 +214,13 @@ nav#primary-menu.statick-sticky > ul{
 	padding-top: 40px;
 }
 
+
+@media (min-width: 480px) and (max-width: 767px){
+	.team-member-margin-one{
+		padding-left: 100px;
+	}
+
+}
 .bio-image{width: 100%; max-width: 100%;}
 
 @media (min-width: 991px) and (max-width: 1199px){
