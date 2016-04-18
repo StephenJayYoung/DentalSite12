@@ -904,6 +904,8 @@ hoursText{
 	margin-bottom: 0px !important;
 }
 
+
+
 address {
 	font-size: 2.25em;
 	margin: .5em 0;
@@ -914,6 +916,30 @@ address {
 	font-size: 23px !important;
 }
 
+.new-patients a{
+	font-size: 45px;
+	color: #095f68;
+}
+
+@media (max-width: 480px)  {
+
+address {
+	font-size: 1.25em !important;
+	margin: .5em 0;
+}
+
+.click-for-address{
+	font-size: 19px !important;
+}
+
+.new-patients a {
+    font-size: 30px;
+    color: #095f68;
+}
+
+}
+
+
 .address-text {
 	color: #000;
 }
@@ -923,10 +949,6 @@ address {
 	font-size: 31px;
 }
 
-.new-patients a{
-	font-size: 45px;
-	color: #095f68;
-}
 
 .existing-patients{
 	font-size: 25px;
