@@ -1040,7 +1040,7 @@ address {
 }
 
 .patient-financing-mobile-text{
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .footer-icons{
@@ -1067,13 +1067,14 @@ address {
     display: block;
 }
 
-@media (max-width: 680px ){
+/*@media (max-width: 680px ){
 	.img-responsive-icons {
     width: 100%;
-    height: 100%;
+    height: 100%px;
     display: block;
+    text-align: center;
 }
-}
+}*/
 
 .icons-margin{
 	margin-top: 0px; 
@@ -1102,10 +1103,6 @@ address {
 		.superdocs-margin{
 		margin-top: -15px; margin-left: 30px
 	}
-
-/*	.superdocs-desktop{
-		margin-top: -15px; margin-left: 30px
-	}*/
 
 }
 
