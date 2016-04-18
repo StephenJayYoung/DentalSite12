@@ -1055,10 +1055,33 @@ address {
 	margin-bottom: 30px;
 }
 
-.financing-border{
-	border-right: 1px solid #000;
-	padding-bottom: 60px;
+.awards-border{
+	border-left: 1px solid #000;
+	padding-bottom: 340px;
 	}
+
+	@media(min-width: 991px) and (max-width: 1199px){
+		.awards-border{
+		border-left: 1px solid #000;
+		padding-bottom: 350px;
+		margin-left: 15px;
+	}
+
+	}
+
+	@media(min-width: 768px) and (max-width: 990px){
+		.awards-border{
+		border-left: 1px solid #000;
+		padding-bottom: 270px;
+		margin-left: 15px;
+	}
+
+	}
+
+/*	.financing-border-two{
+		border-right: 1px solid #000;
+		padding-left: 15px;
+	}*/
 
 
 .img-responsive-icons {
