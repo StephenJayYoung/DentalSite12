@@ -36,6 +36,12 @@ h3, h4, h5, h6 {
     width: 300px;
 }
 
+@media (min-width: 991px) and (max-width: 1200px){
+	#primary-menu ul li a {
+	    font-size: 11px;
+	}
+}
+
 #header {
     background-color: #fff !important;
 }
@@ -1006,6 +1012,18 @@ address {
 #footer {
     position: relative;
     background-color: #f5f5f5 !important;
+}
+
+.patient-financing-text{
+	font-size: 35px;
+}
+
+.awards-text{
+	font-size: 35px;
+}
+
+.patient-financing-mobile-text{
+	font-size: 40px;
 }
 
 .footer-icons{
