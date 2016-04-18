@@ -1028,6 +1028,17 @@ address {
 	font-size: 35px;
 }
 
+@media (min-width: 768px) and (max-width: 990px){
+	.patient-financing-text{
+		font-size: 26px;
+	}
+
+	.awards-text{
+		font-size: 26px;
+	}
+
+}
+
 .patient-financing-mobile-text{
 	font-size: 40px;
 }
@@ -1048,12 +1059,33 @@ address {
 	border-right: 1px solid #000;
 	padding-bottom: 60px;
 	}
+
+
 .img-responsive-icons {
-    width: 100%;
-    max-width: 100%;
+    width: 250px;
     height: auto;
     display: block;
 }
+
+@media (max-width: 680px ){
+	.img-responsive-icons {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+}
+
+.icons-margin{
+	margin-top: 0px; 
+	margin-left: 60px
+}
+
+.icons-margin-two{
+	margin-top: 50px; 
+	margin-left: 60px
+}
+
+
 
 .superdocs{
 	width: 30%;
