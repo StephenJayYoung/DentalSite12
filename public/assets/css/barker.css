@@ -277,7 +277,7 @@ nav#primary-menu.statick-sticky > ul{
 
 }
 
-@media (min-width:550px) and (max-width: 786px) {
+@media (min-width:550px) and (max-width: 766px) {
 	.team-image{
 	    width: 80%;
 	}
