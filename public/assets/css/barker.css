@@ -1088,9 +1088,14 @@ address {
 /*	line-height: 1.45 !important;*/
 }
 
-.hours-text{
+.hours-headline{
+	margin-top:-10px !important;
 	font-size: 28px;
-	margin-top: -10px;
+}
+
+.hours-text{
+	font-size: 22px;
+	margin-top: 20px;
 }
 
 .hours-table{
@@ -1102,6 +1107,30 @@ address {
 .click-for-address{
 	color: #095f68 !important;
 	font-size: 20px !important;
+}
+
+@media(max-width: 560px){
+	address {
+    font-size: 1.4em;
+	}
+
+	.click-for-address {
+	    font-size: 18px !important;
+	}
+
+	.new-patients a {
+	    font-size: 30px;
+	}
+
+	#location p.new-patient-hotline, #location p.existing-patients {
+	    font-size: 22px;
+	}
+
+	.hours-text {
+	    font-size: 16px;
+	    margin-top: 20px;
+	}
+
 }
 
 
