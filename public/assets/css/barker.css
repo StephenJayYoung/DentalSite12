@@ -259,21 +259,51 @@ nav#primary-menu.statick-sticky > ul{
 }
 .bio-image{width: 100%; max-width: 100%;}
 
+
+
+@media (min-width:1200px) {
+.team-image{
+    width: 65%;
+}
+}
+
+@media (min-width:991px) and (max-width: 1199px) {
+	.team-image{
+	    width: 45%;
+	}
+	.team-member-margin{
+		margin-left: 15px !important;
+	}
+
+}
+
+@media (min-width:550px) and (max-width: 786px) {
+	.team-image{
+	    width: 80%;
+	}
+
+}
+
+
+
+
 @media (min-width: 991px) and (max-width: 1199px){
 .bio-image{width: 100%; max-width: 100%;}
 /*.col-sm-push-3 {left: 30%;}*/
 }
 
 @media (min-width: 768px) and (max-width: 990px){
-.bio-image{width: 68%; max-width: 68%;}
+.bio-image{width: 60%; max-width: 60%;}
 /*.col-sm-push-3 {left: 30%;}*/
 }
 
-/*@media (min-width: 1200px){
+
+
+@media (min-width: 1200px){
 	.team-member-margin{
-		margin-left: 15px;
+		margin-left: -40px;
 	}
-}*/
+}
 
 @media (min-width: 900px) and (max-width: 1200px){
 	.team-member-margin{
@@ -820,6 +850,7 @@ section#location {
 }
 
 #location th, #location td {
+    margin-top: -30px;
     padding: 6px 10px;
     border-bottom: 1px solid rgba(0, 0, 0, .25);
     font-size: 20px;
@@ -960,14 +991,17 @@ hoursText{
 .address-border{
 	border-right: 1px solid #000;
 	margin-bottom: 20px;
+	line-height: 1.4 !important;
 }
 
 .address-border-1{
 	border-right: 1px solid #000;
+		line-height: 1.4 !important;
 }
 
 .address-border-2{
 	border-right: 1px solid #000;
+		line-height: 1.4 !important;
 }
 
 .barker-logo-bottom{
@@ -981,7 +1015,7 @@ address {
 }
 
 .address-text{
-	margin-bottom: 30px !important;
+	margin-bottom: 14px !important;
 	color: #000;
 }
 
@@ -999,7 +1033,7 @@ address {
 	font-size: 25px;
 	color: #000;
 	margin-bottom: 35px !important;
-	line-height: 1.3em;
+/*	line-height: 1.45 !important;*/
 }
 
 .hours-text{
@@ -1015,7 +1049,7 @@ address {
 
 .click-for-address{
 	color: #095f68 !important;
-	font-size: 23px !important;
+	font-size: 20px !important;
 }
 
 
