@@ -250,6 +250,17 @@ nav#primary-menu.statick-sticky > ul{
 	padding-top: 40px;
 }
 
+.team-text{
+	color: #000; 
+	font-family: 'Sintony', sans-serif !important;
+	font-size: 11px
+}
+
+.team-header{
+	color: #000; 
+	font-family: 'Sintony', sans-serif !important;
+	font-size: 19px !important;
+}
 
 @media (min-width: 480px) and (max-width: 767px){
 	.team-member-margin-one{
@@ -283,8 +294,6 @@ nav#primary-menu.statick-sticky > ul{
 	}
 
 }
-
-
 
 
 @media (min-width: 991px) and (max-width: 1199px){
