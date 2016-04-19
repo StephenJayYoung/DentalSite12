@@ -986,11 +986,19 @@ address {
 #location p.new-patient-hotline, #location p.existing-patients {
 	font-size: 25px;
 	color: #000;
-	margin-bottom: 40px !important;
-/*	margin: .65em 0;*/
+	margin-bottom: 35px !important;
+	line-height: 1.3em;
 }
 
+.hours-text{
+	font-size: 28px;
+	margin-top: -10px;
+}
 
+.hours-table{
+	margin-top: 25px;
+	color: #000;
+}
 
 
 .click-for-address{
