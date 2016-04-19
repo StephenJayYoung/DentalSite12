@@ -922,7 +922,7 @@ label.error { display: none !important; }
 .form-control.error,
 .sm-form-control.error { border-color: #E42C3E; }
 
-.location-text{
+/*.location-text{
 	font-size: 19px !important;
 	font-family: 'Gentium Book Basic', serif !important;
 }
@@ -956,26 +956,51 @@ label.error { display: none !important; }
 
 hoursText{
 	margin-bottom: 0px !important;
+}*/
+
+.barker-logo-bottom{
+	margin-bottom: 30px;
 }
-
-
 
 address {
-	font-size: 2.25em;
-	margin: .5em 0;
+	font-size: 1.75em;
+	margin-top: 10px;
+/*	margin-bottom: 30px;*/
 }
+
+.address-text{
+	margin-bottom: 30px !important;
+	color: #000;
+}
+
+.new-patients{
+	font-size: 28px;
+	margin-top: 15px;
+}
+
+.new-patients a{
+	font-size: 35px;
+	color: #095f68;
+}
+
+#location p.new-patient-hotline, #location p.existing-patients {
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 40px !important;
+/*	margin: .65em 0;*/
+}
+
+
+
 
 .click-for-address{
 	color: #095f68 !important;
 	font-size: 23px !important;
 }
 
-.new-patients a{
-	font-size: 45px;
-	color: #095f68;
-}
 
-@media (max-width: 480px)  {
+
+/*@media (max-width: 480px)  {
 
 address {
 	font-size: 1.25em !important;
@@ -991,17 +1016,13 @@ address {
     color: #095f68;
 }
 
-}
+}*/
 
 
-.address-text {
-	color: #000;
-}
 
 
-.new-patients{
-	font-size: 31px;
-}
+
+
 
 
 .existing-patients{
@@ -1019,11 +1040,7 @@ address {
 	color: #000;
 }
 
-#location p.new-patient-hotline, #location p.existing-patients {
-	font-size: 25px;
-	color: #000;
-/*	margin: .65em 0;*/
-}
+
 
 #location p.new-patient-hotline small, #location p.existing-patients small {
 	margin-bottom: -5px;
