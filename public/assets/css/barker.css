@@ -266,7 +266,7 @@ nav#primary-menu.statick-sticky > ul{
 	.team-header{
 		color: #000; 
 		font-family: 'Sintony', sans-serif !important;
-		font-size: 18px !important;
+		font-size: 17px !important;
 		font-weight: bold;
 	}
 
@@ -1014,20 +1014,46 @@ hoursText{
 	margin-bottom: 0px !important;
 }*/
 
-.address-border{
-	border-right: 1px solid #000;
-	margin-bottom: 20px;
-	line-height: 1.4 !important;
-}
+
 
 .address-border-1{
 	border-right: 1px solid #000;
-		line-height: 1.4 !important;
+	height: 270px;
+		/*line-height: 1.4 !important;*/
 }
 
 .address-border-2{
 	border-right: 1px solid #000;
-		line-height: 1.4 !important;
+		height: 270px;
+/*		line-height: 1.4 !important;*/
+}
+
+@media(min-width:767px) and (max-width: 990px){
+
+	.address-border-1{
+		border-right: 1px solid #000;
+		height: 310px;
+	}
+
+	.address-border-2{
+		border-right: 1px solid #000;
+			height: 100px;
+	}
+
+}
+
+@media(max-width:766px){
+
+	.address-border-1{
+		border-right: none;
+		height: auto;
+	}
+
+	.address-border-2{
+		border-right: none;
+		height: auto;
+	}
+
 }
 
 .barker-logo-bottom{
