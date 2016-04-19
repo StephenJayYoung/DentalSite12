@@ -431,7 +431,15 @@ section#services {
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #fff !important;
+	background-color: #e7e6e1 !important;
+}
+
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
+    margin-bottom: 10px !important;
+}
+
+.services-info{
+	color: #777777
 }
 
 .subtitle-two {
@@ -700,7 +708,7 @@ section#tour {
 }
 
 .tour-text{
-	font-size: 17px;
+	font-size: 18px;
 	color: #000 !important;
 	line-height: 1.75em;
 	margin-top: -30px;
@@ -734,6 +742,15 @@ box-sizing: border-box;
 	background-color: #e7e6e1;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.owl-carousel .owl-item {
+    box-sizing: border-box;
+    padding: .6em;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    user-select: none;
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
