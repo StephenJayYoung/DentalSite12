@@ -820,10 +820,9 @@ section#location {
 }
 
 #location th, #location td {
-    padding-top: 5px;
     padding: 6px 10px;
     border-bottom: 1px solid rgba(0, 0, 0, .25);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #location td {
@@ -957,6 +956,19 @@ label.error { display: none !important; }
 hoursText{
 	margin-bottom: 0px !important;
 }*/
+
+.address-border{
+	border-right: 1px solid #000;
+	margin-bottom: 20px;
+}
+
+.address-border-1{
+	border-right: 1px solid #000;
+}
+
+.address-border-2{
+	border-right: 1px solid #000;
+}
 
 .barker-logo-bottom{
 	margin-bottom: 30px;
