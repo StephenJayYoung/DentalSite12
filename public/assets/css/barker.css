@@ -184,6 +184,36 @@ nav#primary-menu.statick-sticky > ul{
 	}
 }
 
+@media (min-width:1200px){
+	.layer-one-img img {
+		width: 355px !important;
+	}
+}
+
+@media (min-width:991px) and (max-width: 1199px){
+	.layer-one-img img {
+		width: 320px !important;
+	}
+}
+
+@media (min-width:780px) and (max-width: 990px){
+	.layer-one-img img {
+		width: 235px !important;
+	}
+}
+
+@media (min-width:480px) and (max-width: 779px){
+	.layer-one-img img {
+		width: 165px !important;
+	}
+}
+
+@media (max-width:480px){
+	.layer-one-img img {
+		width: 115px !important;
+	}
+}
+
 /** ACTIONS OVERRIDES */
 
 #actions{padding:20px 0;background-color:#abdce1;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
