@@ -250,6 +250,12 @@ nav#primary-menu.statick-sticky > ul{
 	padding-top: 40px;
 }
 
+.team-guideline{
+	border-bottom: 1px solid #000;
+	padding-top: 20px;
+/*	margin-bottom: 30px;*/
+}
+
 .team-text{
 	color: #000; 
 	font-family: 'Sintony', sans-serif !important;
@@ -285,9 +291,31 @@ nav#primary-menu.statick-sticky > ul{
 	}
 
 }
-.bio-image{width: 100%; max-width: 100%;}
+.bio-image{width: 100%; max-width: 100%;padding-bottom: 30px;}
 
+.team-subtext{
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: #777;
+}
 
+@media(min-width: 1200px){
+	.team-subtext{
+	font-size: 20px;
+}
+}
+
+@media(min-width: 768px) and(991px){
+	.team-subtext{
+	font-size: 18px;
+}
+}
+
+@media(max-width: 768px){
+	.team-subtext{
+	font-size: 15px;
+}
+}
 
 @media (min-width:1200px) {
 .team-image{

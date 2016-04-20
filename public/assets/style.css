@@ -10287,6 +10287,7 @@ body:not(.device-touch) .rounded-skill {
 .owl-carousel .owl-item img {
 	display:block;
 	width:100%;
+	margin-right: 5px;
 	-webkit-transform-style:preserve-3d;
 }
 
