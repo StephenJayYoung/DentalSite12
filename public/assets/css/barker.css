@@ -494,10 +494,14 @@ section#specials {
 }
 
 /** REVIEWS OVERRIDES */
-#reviews{background: url('../images/reviews-background.jpg') 50% 0% no-repeat;
-    background-size: cover; padding-top: 60px;}
+#reviews{
+	background: url('../images/reviews-background.jpg') 50% 0% no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
 #reviews table.rad{box-sizing:border-box;display:block;max-height:640px;overflow-y:scroll;border:2px solid rgba(0, 0, 0, .05);border-bottom:none;}
-#reviews td.rad{padding:3em 10px 20px 10px;position:relative;background-color:rgba(255, 255, 255, .8);border-bottom:2px solid rgba(0, 0, 0, .05);}
+#reviews td.rad{padding:3em 10px 20px 10px;position:relative;background-color:rgba(255, 255, 255, .9);border-bottom:2px solid rgba(0, 0, 0, .05);}
 #reviews .starline{display:block;position:absolute;top:1em;}
 #reviews .radbyline{display:block;text-align:right;}
 
@@ -709,7 +713,8 @@ section#members .heading-block span{
 }
 
 .members-pricing strong {
-	color: #1f1b18 !important;
+    color: #1f1b18 !important;
+    font-weight: bold !important;
 }
 
 .price-tenure {
@@ -787,8 +792,9 @@ section#members .heading-block span{
 
 /** TOUR OVERRIDES */
 section#tour {
-	margin-top: 0;
-	padding-top: 40px;
+	margin-top: 0px;
+	padding-top: 60px;
+	margin-bottom: -50px;
 /*	padding-bottom: 30px !important;*/
 	background-color: #a9a09b !important;
 }
@@ -880,6 +886,7 @@ section#location {
     padding: 6px 10px;
     border-bottom: 1px solid rgba(0, 0, 0, .25);
     font-size: 20px;
+    color: #777777 !important;
 }
 
 #location td {
@@ -1068,12 +1075,13 @@ address {
 
 .address-text{
 	margin-bottom: 14px !important;
-	color: #000;
+	color: #777777;
 }
 
 .new-patients{
 	font-size: 28px;
 	margin-top: 15px;
+	color: #777777;
 }
 
 .new-patients a{
@@ -1083,7 +1091,7 @@ address {
 
 #location p.new-patient-hotline, #location p.existing-patients {
 	font-size: 25px;
-	color: #000;
+	color: #777777;
 	margin-bottom: 35px !important;
 /*	line-height: 1.45 !important;*/
 }
@@ -1091,11 +1099,13 @@ address {
 .hours-headline{
 	margin-top:-10px !important;
 	font-size: 28px;
+	color: #777777 !important;
 }
 
 .hours-text{
 	font-size: 22px;
 	margin-top: 20px;
+	color: #777777 !important;
 }
 
 .hours-table{
