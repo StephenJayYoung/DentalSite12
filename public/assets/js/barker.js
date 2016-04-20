@@ -95,7 +95,7 @@ jQuery(document).ready(function($){
     var relatedPortfolio = $("#related-portfolio");
 
     relatedPortfolio.owlCarousel({
-        margin: 0,
+        margin: 10,
         nav: true,
         navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
         autoplay: false,
