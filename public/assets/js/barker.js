@@ -96,12 +96,12 @@ jQuery(document).ready(function($){
 
     relatedPortfolio.owlCarousel({
         margin: 10,
-        nav: true,
+        nav: false,
         navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
         autoplay: false,
         autoplayHoverPause: true,
         dots: false,
-        loop: true,
+        loop: false,
         touchDrag: false,
         responsive:{
             0:{ items:1 },
