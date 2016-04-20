@@ -250,6 +250,19 @@ nav#primary-menu.statick-sticky > ul{
 	padding-top: 40px;
 }
 
+.hr-large{
+	color:#000 !important;
+	padding-bottom: 20px;
+	margin-left: 167px;
+	border-top: 1px solid #000;
+}
+
+.hr-mobile{
+	color:#000 !important;
+	padding-bottom: 20px;
+	border-top: 1px solid #000;
+}
+
 .team-guideline{
 	border-top: 1px solid #000;
 	padding-top: 20px;
@@ -544,6 +557,12 @@ section#specials {
   padding-top: 60px;
   padding-bottom: 30px;
 }
+
+.reviews-header{
+	color: #000 !important; 
+	text-shadow: 1px 1px #fff !important;
+}
+
 #reviews table.rad{box-sizing:border-box;display:block;max-height:640px;overflow-y:scroll;border:2px solid rgba(0, 0, 0, .05);border-bottom:none;}
 #reviews td.rad{padding:3em 10px 20px 10px;position:relative;background-color:rgba(255, 255, 255, .9);border-bottom:2px solid rgba(0, 0, 0, .05);}
 #reviews .starline{display:block;position:absolute;top:1em;}
