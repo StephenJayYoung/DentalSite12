@@ -262,6 +262,22 @@ nav#primary-menu.statick-sticky > ul{
 	font-size: 11px
 }
 
+
+@media (min-width: 768px) and (max-width:992px ) {
+	.team-text{
+		font-size: 9.5px
+	}
+
+	.team-header{
+		color: #000; 
+		font-family: 'Sintony', sans-serif !important;
+		font-size: 15px !important;
+		font-weight: bold;
+	}
+
+}
+
+
 @media (max-width: 766px) {
 	.team-text{
 		color: #000; 
